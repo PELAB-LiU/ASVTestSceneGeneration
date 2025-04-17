@@ -322,7 +322,7 @@ cd ASVTestSceneGeneration
 For isolated project dependencies, it's recommended to use a virtual environment.
 
 ```bash
-python3.10 -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
