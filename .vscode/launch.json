@@ -1,0 +1,150 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [   
+        {
+            "name": "View Trajectories",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/trajectory_viewer.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }, 
+        {
+            "name": "Test Algorithm",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/test_algorithm.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Generate Trajectories",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/generate_trajectories.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }, 
+        {
+            "name": "Test Hyper-parameters",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/hyperparam_test.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Search-based Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/evaluation_main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Table Browser",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/table_browser.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Evaluation Plots",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/eval_vis.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Annotate Risk Vectors",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/annotate_risk_vectors.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },   
+        {
+            "name": "Scenic Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/scenic_script.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },     
+        {
+            "name": "RRTFN",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/proof_of_concept/RRTStarFN.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "RRTFN2DIR",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/proof_of_concept/bidirectionalRRTStarFND.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Wang24 Plot",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/wang24_eval.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },  
+        {
+            "name": "Parse CommonOcean Scenarios",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/common_ocean_scenario_parser.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+            
+        },       
+        {
+            "name": "Generate Project Outline",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/scripts/generate_project_outline.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+            
+        },       
+    ]
+}
