@@ -1,8 +1,8 @@
-# ASVTestSceneGeneration: Automated Scene Generation for Testing COLREGS-Compliance of Autonomous Surface Vehicles
+# ASVTestSceneGeneration: Assessing Scene Generation Techniques for Testing COLREGS-Compliance of Autonomous Surface Vehicles
 
 A Python 3.12 project for generating and evaluating initial scenes for Autonomous Surface Vehicle (ASV) scenario-based testing. This repository includes utilities for risk vector analysis, genetic algorithms and rejection sampling for scene generation and trajectory planning, with detailed visualization and evaluation tools.
 
-This project serves as supplementary material for our research paper **Automated Scene Generation for Testing COLREGS-Compliance of Autonomous Surface Vehicles**.
+This project serves as supplementary material for our research paper **Assessing Scene Generation Techniques for Testing COLREGS-Compliance of Autonomous Surface Vehicles**.
 
 ![](./assets/figures/approach.png)
 
